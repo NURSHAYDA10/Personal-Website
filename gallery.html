@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Gallery </title>
+</head>
+<style> 
+ *  
+{ 
+    box-sizing: border-box; 
+  } 
+   
+  body { 
+    font-family: Tahoma; 
+    padding: 10px; 
+    background: #B284BE; 
+  } 
+
+   /* Header/Blog Title */ 
+  .header { 
+    padding: 30px; 
+    text-align: center; 
+    background: floralwhite; 
+  } 
+   
+  .header h1 { 
+    font-size: 28px; 
+  } 
+   
+  /* Style the top navigation bar */ 
+  .topnav { 
+    overflow: hidden; 
+    background-color: #311432; 
+  } 
+   
+  /* Style the topnav links */ 
+  .topnav a { 
+    float: left; 
+    display: block; 
+    color: #D7BFDC; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+  } 
+   
+  /* Change color on hover */ 
+  .topnav a:hover { 
+    background-color: whitesmoke; 
+    color: black; 
+  } 
+   
+  /* Create two unequal columns that floats next to each other */ 
+  /* Left column */ 
+  .leftcolumn {    
+    float: left; 
+    width: 100%; 
+  } 
+   
+  /* Right column */ 
+  .rightcolumn { 
+    float: left; 
+    width: 25%; 
+    background-color: grey; 
+    padding-left: 20px; 
+     
+  } 
+   
+  /* Fake image */ 
+  .fakeimg { 
+    background-color: #8D4585; 
+    width: 100%; 
+    padding: 20px; 
+  } 
+   
+  /* Add a card effect for articles */ 
+  .card { 
+    background-color: floralwhite; 
+    padding: 20px; 
+    margin-top: 20px; 
+  } 
+   
+  /* Clear floats after the columns */ 
+  .row:after { 
+    content: ""; 
+    display: table; 
+    clear: both; 
+  } 
+   
+  /* Footer */ 
+  .footer { 
+    padding: 20px; 
+    text-align: center; 
+    background: darkgrey; 
+    margin-top: 20px; 
+  } 
+ 
+  table, th, td { 
+    border: 1px solid darkgrey; 
+    border-collapse: collapse; 
+  } 
+  h1 { 
+        color: darkgrey; 
+  } 
+   
+   
+   
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */ 
+  @media screen and (max-width: 800px) { 
+    .leftcolumn, .rightcolumn {    
+      width: 100%; 
+      padding: 0; 
+    } 
+  } 
+   
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */ 
+  @media screen and (max-width: 400px) { 
+    .topnav a { 
+      float: none; 
+      width: 100%; 
+    } 
+} 
+ 
+</style> 
+<body>
+
+<div class="header"> 
+  <h1> <i> NUR SYAHIDAH RESUME </i> </h1> 
+ 
+   <marquee behavior="alternate" direction="left" scrollamount="7">  
+  <font face="monospace" color="black" size="3"> Welcome to my personal website everyone! :) </font>  
+   </marquee> 
+   
+</div> 
+ 
+<div class="topnav"> 
+  <a href="index.html"> HOME </a>  
+  <a href="bio.html">BIODATA</a> 
+  <a href="edu.html">EDUCATION</a> 
+  <a href="achievement.html" >ACHIEVEMENT</a> 
+  <a href="experience.html" >EXPERIENCE</a> 
+  <a href="family.html" >FAMILY</a> 
+  <a href="gallery.html" >GALLERY</a> 
+  <a href="contact.html" >CONTACT</a>
+  <iframe style="float:right" src="https://free.timeanddate.com/clock/i8mtrahq/n3533/tlmy40/fn6/fs16/fc9ff/tc000/ftbi/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4" frameborder="0" width="205" height="60"></iframe> 
+</div> 
+
+<div class="card"> 
+     <center> <font color="3311432" size="150" face="monospace"> MY GALLERY </font> <center> <br> 
+   
+  
+  <a href="neonrun.jpg"> <img src="neonrun.jpg" width="350" height="450" border="5"> </a>
+
+
+  <a href="sibling.jpg"> <img src="sibling.jpg" width="300" height="450" border="5"> </a>
+
+  <a href="convo.jpg"> <img src="convo.jpg" width="350" height="450" border="5"> </a>
+
+  <a href="pantaifamily.jpg"> <img src="pantaifamily.jpg" width="320" height="450" border="5"> </a>
+
+
+  <a href="OLEOLE.jpg"> <img src="OLEOLE.jpg" width="520" height="350" border="5"> </a> 
+
+   <a href="buffethousemate.jpg"> <img src="buffethousemate.jpg" width="520" height="350" border="5"> </a>
+
+  <a href="mknclassmate.jpg"> <img src="mknclassmate.jpg" width="520" height="350" border="5"> </a>
+
+  <a href="raya.jpg"> <img src="raya.jpg" width="520" height="350" border="5"> </a>
+
+ 
+
+<div class="footer"> 
+  <p>Copyright © 2023 Nur Syahidah Binti Khairul Anuan. <br> 
+ 
+ All Rights Reserved.</p> 
+</div>  
+
+</body>
+</html>
